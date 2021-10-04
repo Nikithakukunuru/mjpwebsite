@@ -24,17 +24,11 @@
   background-image: linear-gradient(to bottom, #fcfc3c, #3498db);
   text-decoration: none;
 }
-.top-container{
-background-color: #B5EAEA;
-
-}
-.middle-container{
-background-color: #fef7db;
-}
-
-.bottom-container{
-background-color:#fef7db;
-
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 body{
   font-family: 'Roboto', sans-serif;
