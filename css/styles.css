@@ -27,8 +27,8 @@
 hr {
   border: dotted #77b82c 6px;
   border-bottom: none;
-  width: 4%;
-  margin: 20px auto;
+  width: 10%;
+  margin: 10px auto 100px auto;
 }
 body{
   font-family: 'Roboto', sans-serif;
