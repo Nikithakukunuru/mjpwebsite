@@ -25,10 +25,10 @@
   text-decoration: none;
 }
 hr {
-  border: dotted #CDF2CA 6px;
+  border: dotted #FF0075 6px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 body{
   font-family: 'Roboto', sans-serif;
