@@ -83,7 +83,6 @@ body{
 }
 
 article{
-float:right;
 padding:20px;
 width:40%;
 background-color:#fef7db;
@@ -96,7 +95,7 @@ clear:both;
 }
 footer{
 background-color:#fef7db;
-padding:200px;
+padding:100px;
 text-align:center;
 color:red;
 }
