@@ -83,16 +83,9 @@ body{
 }
 
 article{
-  float:center;
 padding:20px;
-width:40%;
 height:300px;
  }
-section::after{
-content:"";
-display:table;
-clear:both;
-}
 footer{
 background-color:#fef7db;
 padding:100px;
