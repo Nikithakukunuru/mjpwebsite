@@ -83,11 +83,11 @@ body{
 }
 
 article{
+  float:center;
 padding:20px;
 width:40%;
-background-color:#fef7db;
 height:300px;
-}
+ }
 section::after{
 content:"";
 display:table;
