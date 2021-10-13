@@ -1,3 +1,4 @@
+
 .btn1 {
   background: #34d9a2;
   background-image: -webkit-linear-gradient(top, #34d9a2, #77b82c);
@@ -35,7 +36,10 @@ body{
   font-family: 'Montserrat', sans-serif;
   background-color:#fef7db;
 }
-
+h1{ background-color: #CBF552;
+     font-size:3rem;
+     line-height:1.5;
+}
 article{
 padding:20px;
 height:300px;
