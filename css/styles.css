@@ -63,3 +63,6 @@ text-align:center;
 background-color:#EADEB8;
   padding:0px;
 }
+@media (min-width:360px)
+  h4{
+font-size: 30px;}
