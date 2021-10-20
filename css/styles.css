@@ -64,10 +64,12 @@ background-color:#EADEB8;
   padding:0px;
 }
 
-@media (min-width:360px)
+@media (min-width:360px){
   h4{
-font-size: 1rem;}
-.*{font-size:1.5rem;}
+    font-size: 1rem;}}
+
+*{font-size:1.5rem;}
+
 .container-fluid{display:flex;
   align-items:center;
   justify-content:space-between;
@@ -77,7 +79,7 @@ padding:0.5rem;
   color:white;
   box-shadow:0.25rem 0.25rem 0rem;
 }
-input{
+.input{
 margin:0 0.5rem 0 0.5rem;
   width:100%;
 border: none;
