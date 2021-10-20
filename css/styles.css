@@ -42,6 +42,7 @@ hr {
 }
 
 body{
+  height:100%;
   font-family: "Montserrat";
   background-color:#fef7db;
 }
