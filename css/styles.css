@@ -72,3 +72,10 @@ background-color:#EADEB8;
  ::placeholder{
 color:#f0b2a8;
 }
+
+@media(max-width: 767px) {
+	.btn1{
+      padding: 0.8em 0.3em;
+      display: inline-block;
+	}
+}
