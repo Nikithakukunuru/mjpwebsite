@@ -68,8 +68,6 @@ background-color:#EADEB8;
   h4{
     font-size: 1rem;}}
 
-*{font-size:1.5rem;}
-
 .container-fluid{
   display:flex;
   justify-content:space-between;
