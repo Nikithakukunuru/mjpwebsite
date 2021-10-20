@@ -27,7 +27,13 @@
 }
 .nav-item{
 font-family:"Ubuntu";
-  }  
+  }
+
+*{
+margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
 hr {
   border: dotted #77b82c 6px;
   border-bottom: none;
