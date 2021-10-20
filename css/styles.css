@@ -68,13 +68,7 @@ background-color:#EADEB8;
   h4{
     font-size: 1rem;}}
 
-.container-fluid{
-  display:flex;
-  justify-content:space-between;
-  width:500px;
-  padding:0.5rem;
-  border-radius:0.5rem;
-  }
+
 .input{
 margin:0 0.5rem 0 0.5rem;
   width:100%;
