@@ -69,13 +69,6 @@ background-color:#EADEB8;
     font-size: 1rem;}}
 
 
-.input{
-margin:0 0.5rem 0 0.5rem;
-  width:100%;
-  border: none;
-  outline:none;
-  color:white;
-}
  ::placeholder{
 color:#f0b2a8;
 }
