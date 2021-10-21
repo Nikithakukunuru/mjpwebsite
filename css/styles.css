@@ -16,10 +16,6 @@ h1{
   box-sizing:border-box;
 }
 
-*#title{
-background-color:#ff4c68;
-  padding:0px;
-}
 
 hr {
   border: dotted #77b82c 6px;
