@@ -16,8 +16,8 @@ h1{
   box-sizing:border-box;
 }
 
-#title{
-background-color:#EADEB8;
+*#title{
+background-color:#ff4c68;
   padding:0px;
 }
 
