@@ -58,10 +58,7 @@ background-color:#fff;
 padding:100px;
 text-align:center;
 }
-footer2{
-padding:7% 15%;
-text-align:center;
-}
+
 
 *#title{
 background-color:#EADEB8;
@@ -83,5 +80,4 @@ color:#f0b2a8;
       display: inline-block;
 	}
 }
-.social-icon{
-margin:20px 10px;}
+
