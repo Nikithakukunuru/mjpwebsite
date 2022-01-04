@@ -85,7 +85,7 @@ color:#f0b2a8;
 	}
 }
 
-button {
+button1 {
   --border: 5px;    /* the border width */
   --slant: 0.7em;   /* control the slanted corners */
   --color: #37E8FC; /* the color */
@@ -110,17 +110,17 @@ button {
              );
   transition: color var(--t,0.3s), background-size 0.3s;
 }
-button:hover,
-button:active{
+button1:hover,
+button1:active{
   background-size: 100% 100%;
   color: #fff;
   --t: 0.2s 0.1s;
 }
-button:focus-visible {
+button1:focus-visible {
   outline-offset: calc(-1*var(--border));
   outline: var(--border) solid #000a;
 }
-button:active {
+button1:active {
   --s: #0005;
   transition: none;
 }
