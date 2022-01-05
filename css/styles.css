@@ -110,17 +110,17 @@ color:#f0b2a8;
              );
   transition: color var(--t,0.3s), background-size 0.3s;
 }
-button1:hover,
-button1:active{
+.button1:hover,
+.button1:active{
   background-size: 100% 100%;
   color: #fff;
   --t: 0.2s 0.1s;
 }
-button1:focus-visible {
+.button1:focus-visible {
   outline-offset: calc(-1*var(--border));
   outline: var(--border) solid #000a;
 }
-button1:active {
+.button1:active {
   --s: #0005;
   transition: none;
 }
