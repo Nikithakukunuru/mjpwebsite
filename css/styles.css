@@ -23,7 +23,11 @@ h1{
     font-size: 2.44140625em;
     letter-spacing: -.75px;
     font-weight:bold;
-  line-height:1.5;
+  line-height:1.12em;
+	font-weight:900;
+	margin-top:0.8em;
+	margin-bottom:0.125em;
+	font-family:Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 hr {
   border: dotted #77b82c 6px;
