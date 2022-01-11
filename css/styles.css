@@ -17,8 +17,7 @@ body{
   height:100%;
   font-family: "Montserrat";
   background-color:#fef7db;
-	Show code
-background: conic-gradient(transparent 25%, #e72e33 0% 50%, transparent 0% 75%, #020202 0%) 0/ 4em 4em, repeating-linear-gradient(45deg, #020202 0 2.83px, #e72e33 0 5.66px)
+	background: conic-gradient(transparent 25%, #e72e33 0% 50%, transparent 0% 75%, #020202 0%) 0/ 4em 4em, repeating-linear-gradient(45deg, #020202 0 2.83px, #e72e33 0 5.66px)
 }
 
 h1{      
