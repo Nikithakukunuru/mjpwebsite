@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nikitha's Personal Webpage</title>
+  <link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+
+<body bgcolor="#FDFCE5">
+<table cellspacing="20">
+  <td>  <img src="lavanya.jpg" alt="Dr.Lavanya" ></td>
+  <td>  <h1>Dr.K.LAVANYA</h1>
+    <p>Lecturer</P>
+    <P>Department of Telugu</p>
+    <strong><a href="https://mjpabcwreis.cgg.gov.in/TSMJBCWEB20/#!/home0602asderf.rps">MJPTBCW RESIDENTIAL DEGREE COLLEGE FOR WOMEN</a></strong></td>
+</table>
+
+  <hr SIZE="3">
+  <h3>Teaching</h3>
+  <ul>
+    <li
+    Dr. K. Lavanya qualified UGC-NET in 2015. 
+</li>
+    <li>She got UGC-JRF and NET in 2017. She Qualified TS-SET in 2017. She has Completed Ph.D from University of Hyderabad in 2019.</li>
+    <li>She has 3 years of Research Experience. She Published 3 research papers.</li>
+    <li> She has Two years of Experience in Teaching. She has attended various National Seminars. </li>
+          </ul>
+    </body>
+
+</html>
