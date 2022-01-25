@@ -102,15 +102,15 @@ MJPTBCWRDC
 	  <input class="form-control me-8" type="search" placeholder="Search" aria-label="Search" box-sizing="content-box">
  <button class="btn btn-outline-success btn-gradient-border" type="submit"><i class="fa fa-search"></i></button></form>
     <script>
-      const f = document.getElementById('form');
-      const q = document.getElementById('query');
-      //const google = 'https://www.google.com/search?q=site%3A+';
-      const site = 'https://nikithakukunuru.github.io/mjpwebsite/';
+      const f=document.getElementById('form');
+      const q=document.getElementById('query');
+      //const google='https://www.google.com/search?q=site%3A+';
+      const site='https://nikithakukunuru.github.io/mjpwebsite/';
 
       function submitted(event) {
         event.preventDefault();
-        const url = site + '+' + q.value;
-        const win = window.open(url, '_blank');
+        const url=site+q.value+'.html';
+        const win=window.open(url,'_blank');
         win.focus();
       }
 	    </script>
