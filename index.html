@@ -98,23 +98,25 @@ MJPTBCWRDC
 	</li>
 </ul>
     </div>
-	  <form role="search" id="form">
-	  <input class="form-control me-8" type="search" placeholder="Search" aria-label="Search" box-sizing="content-box">
- <button class="btn btn-outline-success btn-gradient-border" type="submit"><i class="fa fa-search"></i></button></form>
+	     <form role="search" id="form">
+      <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content">
+    </form>
     <script>
       const f=document.getElementById('form');
       const q=document.getElementById('query');
-      //const google='https://www.google.com/search?q=site%3A+';
+      const google='https://www.google.com/search?q=site%3A+';
       const site='https://nikithakukunuru.github.io/mjpwebsite/';
 
       function submitted(event) {
         event.preventDefault();
         const url=site+q.value+'.html';
-        const win=window.open(url,'_blank');
+        const win = window.open(url,'_blank');
         win.focus();
       }
-	    </script>
 
+      f.addEventListener('submit', submitted);
+    </script>
+  
   </div>
 	  </nav>
 	    </section>
