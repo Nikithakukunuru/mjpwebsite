@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>
-MJPTBCWRDC/Committees and Councils
+MJPTBCWRDC
 </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,21 +42,21 @@ MJPTBCWRDC/Committees and Councils
             About </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="history.html">History</a></li>
-            <li><a class="dropdown-item" href="Governing_body.html">Governing Body</a></li>
-		   <li><a class="dropdown-item" href="Leadership.html">Leadership</a></li>
-		  <li><a class="dropdown-item" href="Committees_Councils.html">Committees and Councils</a></li>
-		  <li><a class="dropdown-item" href="Best_practices.html">Best Practices</a></li>
+            <li><a class="dropdown-item" href="governingbody.html">Governing Body</a></li>
+		   <li><a class="dropdown-item" href="leadership.html">Leadership</a></li>
+		  <li><a class="dropdown-item" href="committeescouncils.html">Committees and Councils</a></li>
+		  <li><a class="dropdown-item" href="bestpractices.html">Best Practices</a></li>
 	</ul>     </li>
 	    <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Academics
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="Courses.html">Courses</a></li>
-            <li><a class="dropdown-item" href="Faculty.html">Faculty</a></li>
-            <li><a class="dropdown-item" href="Timetables.html">Timetables</a></li>
-	    <li><a class="dropdown-item" href="Academic_calender.html">Academic Calender</a></li>
-		  <li><a class="dropdown-item" href="Examinations.html">Examinations</a></li>
+            <li><a class="dropdown-item" href="courses.html">Courses</a></li>
+            <li><a class="dropdown-item" href="faculty.html">Faculty</a></li>
+            <li><a class="dropdown-item" href="timetables.html">Timetables</a></li>
+	    <li><a class="dropdown-item" href="academic_calender.html">Academic Calender</a></li>
+		  <li><a class="dropdown-item" href="examinations.html">Examinations</a></li>
 		  </ul>
         </li>
         <li class="nav-item dropdown">
@@ -64,9 +64,9 @@ MJPTBCWRDC/Committees and Councils
             Admissions
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="Eligibility_criteria.html">Eligibility Criteria</a></li>
-            <li><a class="dropdown-item" href="General_Instructions.html">General Instructions</a></li>
-            <li><a class="dropdown-item" href="Sanctioned_seats.html">Sanctioned Seats</a></li>
+            <li><a class="dropdown-item" href="eligibilitycriteria.html">Eligibility Criteria</a></li>
+            <li><a class="dropdown-item" href="generalinstructions.html">General Instructions</a></li>
+            <li><a class="dropdown-item" href="sanctionedseats.html">Sanctioned Seats</a></li>
 		  </ul>
         </li>
         <li class="nav-item dropdown">
@@ -74,11 +74,11 @@ MJPTBCWRDC/Committees and Councils
             Infrastructure & Facilities
 	</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="LAboratories.html">Laboratories</a></li>
-            <li><a class="dropdown-item" href="Library.html">Library</a></li>
-            <li><a class="dropdown-item" href="Mess.html">Mess</a></li>
-		   <li><a class="dropdown-item" href="Health_Care.html">Health Care</a></li>
-		  <li><a class="dropdown-item" href="Sports.html">Sports</a></li>
+            <li><a class="dropdown-item" href="laboratories.html">Laboratories</a></li>
+            <li><a class="dropdown-item" href="library.html">Library</a></li>
+            <li><a class="dropdown-item" href="mess.html">Mess</a></li>
+		   <li><a class="dropdown-item" href="healthcare.html">Health Care</a></li>
+		  <li><a class="dropdown-item" href="sports.html">Sports</a></li>
 		  </ul>
         </li>
 	              <li class="nav-item dropdown">
@@ -98,8 +98,25 @@ MJPTBCWRDC/Committees and Councils
 	</li>
 </ul>
     </div>
-	  <input class="form-control me-8" type="search" placeholder="Search" aria-label="Search" box-sizing="content-box">
- <button class="btn btn-outline-success btn-gradient-border" type="submit"><i class="fa fa-search"></i></button>
+	     <form role="search" id="form">
+      <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content">
+    </form>
+    <script>
+      const f=document.getElementById('form');
+      const q=document.getElementById('query');
+      const google='https://www.google.com/search?q=site%3A+';
+      const site='https://nikithakukunuru.github.io/mjpwebsite/';
+
+      function submitted(event) {
+        event.preventDefault();
+        const url=site+q.value+'.html';
+        const win = window.open(url,'_blank');
+        win.focus();
+      }
+
+      f.addEventListener('submit', submitted);
+    </script>
+  
   </div>
 	  </nav>
 	    </section>
