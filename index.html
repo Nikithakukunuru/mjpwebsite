@@ -104,12 +104,12 @@ MJPTBCWRDC
     <script>
       const f = document.getElementById('form');
       const q = document.getElementById('query');
-      const google = 'https://www.google.com/search?q=site%3A+';
+      //const google = 'https://www.google.com/search?q=site%3A+';
       const site = 'https://nikithakukunuru.github.io/mjpwebsite/';
 
       function submitted(event) {
         event.preventDefault();
-        const url = google + site + '+' + q.value;
+        const url = site + '+' + q.value;
         const win = window.open(url, '_blank');
         win.focus();
       }
