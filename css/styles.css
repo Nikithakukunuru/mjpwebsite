@@ -32,6 +32,24 @@ hr {
   width: 10%;
   margin: 0px auto 100px auto;
 }
+.line{
+  --w: 20px;    /* the width of dashes */
+  --h: 0.2em;   /* the height of dashes */
+  --c: #4b9ed9; /* the color */
+  
+  padding-bottom: var(--h);
+  position: relative;
+}
+.line:before {
+  content: "";
+  position: absolute;
+  inset: calc(100% - var(--h)) 0 0;
+  border-radius: var(--h);
+  background: 
+   radial-gradient(circle closest-side,var(--c) 90%,#0000 105%) 0/var(--w),
+   linear-gradient(90deg,var(--c) 50%, #0000 0) calc(var(--w)/2)/calc(2*var(--w));
+}
+
 
 article{
 padding:20px;
