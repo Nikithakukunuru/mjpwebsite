@@ -69,11 +69,13 @@ hr {
   padding: var(--y) var(--y) 0 var(--y);
   transition: 1s;
 }
-.box:hover .image{
+.box:hover image{
   --_a: 0deg;
   --_c: calc(100% - var(--y));
 }
-
+.box {
+  cursor: pointer;
+}
 
 
 article{
