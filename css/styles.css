@@ -50,7 +50,7 @@ hr {
    linear-gradient(90deg,var(--c) 50%, #0000 0) calc(var(--w)/2)/calc(2*var(--w));
 }
 //3D image property
-.image{
+img{
   /* adjust the below to control the 3D effect */
   --x: 10px;
   --y: 20px;
@@ -69,7 +69,7 @@ hr {
   padding: var(--y) var(--y) 0 var(--y);
   transition: 1s;
 }
-.box:hover image{
+.box:hover img{
   --_a: 0deg;
   --_c: calc(100% - var(--y));
 }
